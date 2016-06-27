@@ -22,7 +22,7 @@
 static NSString *const cellID=@"textCell";
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor=[UIColor whiteColor];
+    self.view.backgroundColor=[UIColor yellowColor];
     _dataArray=[NSMutableArray new];
     [self configUI];
     [self loadData];
